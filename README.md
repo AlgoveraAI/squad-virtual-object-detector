@@ -1,4 +1,4 @@
-<img src="images/virtual.jpeg" width="100%"
+<img src="images/virtual.jpeg" width="100%">
 
 # Squad: Virtual Object Detector
 This project aims to build object detection for the metaverse by training models with the [ImageAI](https://github.com/OlafenwaMoses/ImageAI) library on web images captured using [Puppeteer](https://github.com/puppeteer/puppeteer).
