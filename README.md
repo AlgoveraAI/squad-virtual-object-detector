@@ -12,7 +12,9 @@ This project aims to build object detection for the metaverse by training models
 # 👪 Squad
 
 Lead: alextitonis (GitHub)
+
 Grant Proposal: https://forum.algovera.ai/t/virtual-object-detector/25
+
 Notion: https://algovera.notion.site/Squads-194768658a044302a0cdc24d5d758b9d?p=13587733017d4524832fd51f3780969a
 
 # 🏗 Initial Setup 
