@@ -8,6 +8,7 @@ This project aims to build object detection for the metaverse by training models
 - [👪 Squad](#-squad)
 - [🏗 Initial Setup](#-initial-setup)
 - [🏛 License](#-license)
+- [Information](#-information)
 
 # 👪 Squad
 
@@ -34,7 +35,21 @@ python3 -m venv venv
 source venv/bin/activate
 
 #Install libraries.
+pip install -r requirements.txt
 ```
+
+# Information
+## How to train a new model
+Create a folder, inside create 2 new folders called test and train, inside each add the same folders with the names of the images (car, human, etc)
+For example:
+trees/train/pine
+trees/train/oak
+trees/test/pine
+trees/test/oak
+
+Train images should be atleast 500, while the test folder should include atleast 200 images to train a proper model.
+
+To train it you can either run the trainer.py script using command line or through the editor tab - trainer, upload a zip file with all the folders/images and it will do the job for you!
 
 # 🏛 License
 
