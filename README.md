@@ -36,7 +36,20 @@ source venv/bin/activate
 
 #Install libraries.
 pip install -r requirements.txt
+
+#Edit the variables
+Rename the .env.default to .env and edit the variables inside
 ```
+
+To run the trainer use the trainer.py
+For the detector is the detector.py
+For the editor run the /editor/editor.py file
+The editor includes functions for train and detection (images, videos)
+The capturers folder includes varius scripts that can be used to capture images:
+* browser.py -> is the wrapper for puppeteer (using pyppeteer) it includes some example functions to enter a website and capture images
+* fullScreen.py -> includes a function to capture a screenshot in full screen
+* gameWindow.py -> includes a function to capture a screenshot from a window (not only from games) using the window title - windows only
+* videoCapturer.py -> includes a function that captures frames from a video and turns them into images
 
 # Information
 ## How to train a new model
